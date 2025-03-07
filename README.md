@@ -23,6 +23,7 @@ Hey, this is the first released discord bot from TheHostCraft Bot Lab (from TheH
 
 🇩🇪:
 Für den Bot Token nutzen wir dotenv um den Bot Token sicher in einer .env Datei zu speichern. Dazu einfach bei "YOUR_TOKEN_HERE" deinen Discord Bot Token eintragen!
+
 🇬🇧:
 For the bot token we use dotenv, to save the bot token secured in a .env file. Just paste your bot token into "YOUR_TOKEN_HERE"!
 ```
@@ -31,6 +32,7 @@ DISCORD_TOKEN = YOUR_TOKEN_HERE
 ## Bot Config
 🇩🇪:
 Wir haben eine glob-ban.yaml für die Konfiguration der Staff Rollen, des Main Servers und der Server, auf denen gebannt werden soll. Unter "required_roles" gibst du alle Rollen an, die Rechte haben sollen global zu bannen! Diese Rollen müssen auf dem Hauptserver sein, da dort abgefragt wird ob der Nutzer die Rollen hat. Bei "main_server_id" gibst du die ID deines Hauptservers an. Bei "global_ban_servers" gibst du alle Server an, auf denen gebannt werden soll. Wenn auf dem Hauptserver auch gebannt wird, musst du diesen auch angeben.
+
 🇬🇧:
 We have a glob-ban.yaml for the configuration of the staff roles, the main server and the servers to be banned. Under “required_roles” you specify all roles that should have the right to ban globally! These roles must be on the main server, as this is where the system checks whether the user has the roles. For “main_server_id”, enter the ID of your main server. For “global_ban_servers”, enter all servers on which you want to ban the user. If the main server is also banned, you must also specify this.
 ```yaml
@@ -53,10 +55,12 @@ global_ban_servers:
 ## Report a problem / Support
 🇩🇪:
 Wenn du irgendwelche Fehler hast oder Hilfe benötigst joine gerne unserem Discord oder öffne einen Issue auf Github.
+
 🇬🇧: 
 If you have any bugs or need help, please join our Discord or open an issue on Github.
 ## Support Server:
 🇩🇪:
 Du kannst dem offiziellen TheHostCraft Discord über diesen Link beitreten: https://discord.gg/DCDTNDK2eX
+
 🇬🇧:
 You can join the official TheHostCraft discord over this link: https://discord.gg/DCDTNDK2eX
