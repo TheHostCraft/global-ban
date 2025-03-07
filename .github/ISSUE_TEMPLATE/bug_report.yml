@@ -1,0 +1,85 @@
+name: "🐛 Bug Report"
+description: "Report an issue to help us improve the project."
+title: "[Bug]: "
+labels: ["bug"]
+assignees:
+  - your-github-username
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🐞 Bug Report
+        Please fill out the form below to help us understand and fix the issue.
+
+  - type: input
+    id: bug-description
+    attributes:
+      label: "Describe the bug"
+      description: "Provide a clear and concise description of the issue."
+      placeholder: "E.g., The application crashes when clicking the 'Save' button."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: "Steps to reproduce"
+      description: "Provide step-by-step instructions to reproduce the issue."
+      placeholder: |
+        1. Open the application
+        2. Click on 'Save'
+        3. Observe the crash message
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: "Expected behavior"
+      description: "What did you expect to happen instead?"
+      placeholder: "The app should save my file without crashing."
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: "Actual behavior"
+      description: "What actually happened?"
+      placeholder: "The app crashed with error XYZ."
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: "Environment"
+      description: "Where did this issue occur?"
+      multiple: false
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - Web (Browser)
+    validations:
+      required: true
+
+  - type: input
+    id: browser-version
+    attributes:
+      label: "Browser & Version (if applicable)"
+      description: "If the issue is in a web browser, specify the browser and version."
+      placeholder: "E.g., Chrome 98"
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: "Additional context"
+      description: "Anything else you want to add?"
+      placeholder: "Screenshots, logs, or other relevant details."
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: "Confirmation"
+      options:
+        - label: "I have checked for existing issues before opening this report."
+          required: true
